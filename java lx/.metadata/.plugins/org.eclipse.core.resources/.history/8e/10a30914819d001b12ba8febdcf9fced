@@ -1,0 +1,11 @@
+package com.nowcoder.part03;
+
+public class DataTypeDemo {
+	
+	public static void main(String[] args) {
+		//1.直接写出的值叫直接量
+		System.out.println(9);
+		System.out.println(3.14);
+	}
+
+}

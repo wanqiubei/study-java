@@ -1,0 +1,9 @@
+package com.nowcoder.part03;
+
+public class DataTypeDemo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
