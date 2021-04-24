@@ -1,12 +1,3 @@
 INDEX VERSION 1.126+D:\java word\java lx\.metadata\.plugins\org.eclipse.jdt.core
-1663890817.index
-30672866.index
-794741497.index
-14026354.index
-4189600871.index
-1138013322.index
-418210431.index
-2700773311.index
-2772233504.index
-2963707545.index
 2427121011.index
+120872652.index

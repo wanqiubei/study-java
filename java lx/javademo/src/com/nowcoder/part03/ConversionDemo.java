@@ -28,11 +28,16 @@ public class ConversionDemo {
 		int iii = 100;
 		double ddd = 3.14;
 		System.out.println(ccc + iii + ddd);
-		
-		//注意如下的坑
-		byte b=8;
-		b=(byte)(b-3);
+
+		// 注意如下的坑
+		byte b = 8;
+		b = (byte) (b - 3);
 		System.out.println(b);
+
+		// 下列情况是默认规则，不是类型转换
+		byte k = 5;
+		short m = 6;
+		char n = 7;
 	}
 
 }

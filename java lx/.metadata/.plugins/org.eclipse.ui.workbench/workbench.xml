@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="35" version="2.0">
+<workbench progressCount="23" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="32" y="32">
 <fastViewData fastViewLocation="1024"/>
@@ -19,6 +19,7 @@
 <coolItem id="com.genuitec.myeclipse.actions.reporting" itemType="typeToolBarContribution" x="80" y="22"/>
 <coolItem id="com.genuitec.myeclipse.actions.screencapture" itemType="typeToolBarContribution" x="57" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="183" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="103" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="149" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
@@ -27,7 +28,6 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -38,13 +38,28 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataTypeDemo.java" partName="DataTypeDemo.java" path="D:/java word/java lx/javademo/src/com/nowcoder/part03/DataTypeDemo.java" title="DataTypeDemo.java" tooltip="javademo/src/com/nowcoder/part03/DataTypeDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javademo/src/com/nowcoder/part03/DataTypeDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1532" selectionTopPixel="947"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfDemo1.java" partName="IfDemo1.java" path="D:/java word/java lx/javademo/src/com/nowcoder/part06/IfDemo1.java" title="IfDemo1.java" tooltip="javademo/src/com/nowcoder/part06/IfDemo1.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javademo/src/com/nowcoder/part06/IfDemo1.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="361" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfDemo2.java" partName="IfDemo2.java" path="D:/java word/java lx/javademo/src/com/nowcoder/part06/IfDemo2.java" title="IfDemo2.java" tooltip="javademo/src/com/nowcoder/part06/IfDemo2.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javademo/src/com/nowcoder/part06/IfDemo2.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="24" selectionOffset="61" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfDemo3.java" partName="IfDemo3.java" path="D:/java word/java lx/javademo/src/com/nowcoder/part06/IfDemo3.java" title="IfDemo3.java" tooltip="javademo/src/com/nowcoder/part06/IfDemo3.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javademo/src/com/nowcoder/part06/IfDemo3.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="28" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfDemo4.java" partName="IfDemo4.java" path="D:/java word/java lx/javademo/src/com/nowcoder/part06/IfDemo4.java" title="IfDemo4.java" tooltip="javademo/src/com/nowcoder/part06/IfDemo4.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javademo/src/com/nowcoder/part06/IfDemo4.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="531" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -229,33 +244,48 @@
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="cvslocation">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+<layout>
+<mainWindow>
+<info folder="true" part="cvslocation">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.749499" ratioLeft="748" ratioRight="250" relationship="2" relative="cvslocation">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.749499" ratioLeft="748" ratioRight="250" relationship="2" relative="cvslocation">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.1993988" ratioLeft="199" ratioRight="799" relationship="2" relative="cvslocation"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@6bf80b" ratio="0.74968714" ratioLeft="599" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@6bf80b" ratio="0.74968714" ratioLeft="599" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@69b824" ratio="0.549763" ratioLeft="348" ratioRight="285" relationship="4" relative="org.eclipse.ui.internal.ViewStack@6bf80b">&#x0A;<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@69b824" ratio="0.549763" ratioLeft="348" ratioRight="285" relationship="4" relative="org.eclipse.ui.internal.ViewStack@6bf80b">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.7488152" ratioLeft="474" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<info folder="true" part="bottom" ratio="0.7488152" ratioLeft="474" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.genuitec.eclipse.ui.HTMLView" label="Web Browser"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="Servers"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -263,17 +293,23 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topleft" ratio="0.39968404" ratioLeft="253" ratioRight="380" relationship="4" relative="cvslocation">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<info folder="true" part="topleft" ratio="0.39968404" ratioLeft="253" ratioRight="380" relationship="4" relative="cvslocation">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="Hierarchy"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomleft" ratio="0.549763" ratioLeft="348" ratioRight="285" relationship="4" relative="topleft">&#x0A;<folder activePageID="uky.article.imageviewer.views.ImageView" appearance="2" expanded="2">&#x0A;<page content="uky.article.imageviewer.views.ImageView" label="Image Preview"/>
+<info folder="true" part="bottomleft" ratio="0.549763" ratioLeft="348" ratioRight="285" relationship="4" relative="topleft">
+<folder activePageID="uky.article.imageviewer.views.ImageView" appearance="2" expanded="2">
+<page content="uky.article.imageviewer.views.ImageView" label="Image Preview"/>
 <page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -461,60 +497,168 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part01.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part02.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part02/VariableDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part01/First.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/qwe/Dafw.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part03/DataTypeDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part04/OperatorDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part03/ConversionDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part03/DataTypeDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part04/OperatorDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part05/ScannerDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/anli/src/src/LeapYearDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/anli/src/src/ShoppingDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part06/IfDemo1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part06/IfDemo2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part06/IfDemo3.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javademo/src/com/nowcoder/part06/IfDemo4.java"/>
 </editors>
-<item historyLabel="part01.java" index="0">
-<position info="not_deleted" x="116" y="0"/>
+<item historyLabel="DataTypeDemo.java" index="0">
+<position info="not_deleted" x="878" y="0"/>
 </item>
-<item historyLabel="part02.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="OperatorDemo.java" index="1">
+<position info="not_deleted" x="1549" y="0"/>
 </item>
-<item historyLabel="VariableDemo.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ConversionDemo.java" index="2">
+<position info="not_deleted" x="502" y="0"/>
 </item>
-<item historyLabel="VariableDemo.java" index="2">
+<item historyLabel="DataTypeDemo.java" index="3">
+<position info="not_deleted" x="1564" y="0"/>
+</item>
+<item historyLabel="OperatorDemo.java" index="1">
+<position info="not_deleted" x="283" y="0"/>
+</item>
+<item historyLabel="OperatorDemo.java" index="1">
+<position info="not_deleted" x="2199" y="0"/>
+</item>
+<item historyLabel="ConversionDemo.java" index="2">
+<position info="not_deleted" x="502" y="0"/>
+</item>
+<item historyLabel="OperatorDemo.java" index="4">
+<position info="not_deleted" x="2277" y="0"/>
+</item>
+<item historyLabel="OperatorDemo.java" index="4">
+<position info="not_deleted" x="2261" y="0"/>
+</item>
+<item historyLabel="OperatorDemo.java" index="4">
+<position info="not_deleted" x="2259" y="0"/>
+</item>
+<item historyLabel="OperatorDemo.java" index="4">
 <position/>
 </item>
-<item historyLabel="VariableDemo.java" index="2">
-<position/>
+<item historyLabel="OperatorDemo.java" index="4">
+<position info="not_deleted" x="2277" y="0"/>
 </item>
-<item historyLabel="VariableDemo.java" index="2">
-<position info="not_deleted" x="138" y="0"/>
-</item>
-<item historyLabel="First.java" index="3">
-<position info="not_deleted" x="134" y="0"/>
-</item>
-<item historyLabel="Dafw.java" index="4">
-<position info="not_deleted" x="39" y="0"/>
-</item>
-<item historyLabel="First.java" index="3">
-<position info="not_deleted" x="127" y="0"/>
-</item>
-<item historyLabel="VariableDemo.java" index="2">
-<position info="not_deleted" x="603" y="0"/>
-</item>
-<item historyLabel="DataTypeDemo.java" index="5">
+<item historyLabel="ScannerDemo.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="DataTypeDemo.java" index="5">
-<position info="not_deleted" x="689" y="0"/>
+<item historyLabel="ScannerDemo.java" index="5">
+<position info="not_deleted" x="671" y="0"/>
 </item>
-<item historyLabel="DataTypeDemo.java" index="5">
+<item historyLabel="ScannerDemo.java" index="5">
+<position info="not_deleted" x="589" y="0"/>
+</item>
+<item historyLabel="ScannerDemo.java" index="5">
+<position info="not_deleted" x="625" y="0"/>
+</item>
+<item historyLabel="ScannerDemo.java" index="5">
+<position info="not_deleted" x="506" y="0"/>
+</item>
+<item historyLabel="LeapYearDemo.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LeapYearDemo.java" index="6">
+<position info="not_deleted" x="521" y="5"/>
+</item>
+<item historyLabel="ScannerDemo.java" index="5">
+<position info="not_deleted" x="506" y="0"/>
+</item>
+<item historyLabel="LeapYearDemo.java" index="6">
+<position info="not_deleted" x="521" y="5"/>
+</item>
+<item historyLabel="LeapYearDemo.java" index="6">
+<position info="not_deleted" x="433" y="0"/>
+</item>
+<item historyLabel="LeapYearDemo.java" index="6">
+<position info="not_deleted" x="67" y="0"/>
+</item>
+<item historyLabel="ShoppingDemo.java" index="7">
 <position/>
 </item>
-<item historyLabel="DataTypeDemo.java" index="5">
-<position info="not_deleted" x="699" y="1"/>
+<item historyLabel="LeapYearDemo.java" index="6">
+<position info="not_deleted" x="67" y="0"/>
 </item>
-<item historyLabel="DataTypeDemo.java" index="5">
-<position info="not_deleted" x="1007" y="0"/>
+<item historyLabel="ShoppingDemo.java" index="7">
+<position info="not_deleted" x="72" y="0"/>
 </item>
-<item active="true" historyLabel="DataTypeDemo.java" index="5">
-<position info="not_deleted" x="1534" y="0"/>
+<item historyLabel="IfDemo1.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="IfDemo1.java" index="8">
+<position/>
+</item>
+<item historyLabel="IfDemo1.java" index="8">
+<position info="not_deleted" x="365" y="0"/>
+</item>
+<item historyLabel="IfDemo2.java" index="9">
+<position/>
+</item>
+<item historyLabel="IfDemo1.java" index="8">
+<position info="not_deleted" x="61" y="24"/>
+</item>
+<item historyLabel="IfDemo2.java" index="9">
+<position/>
+</item>
+<item historyLabel="IfDemo1.java" index="8">
+<position/>
+</item>
+<item historyLabel="IfDemo2.java" index="9">
+<position/>
+</item>
+<item historyLabel="IfDemo2.java" index="9">
+<position info="not_deleted" x="375" y="0"/>
+</item>
+<item historyLabel="IfDemo1.java" index="8">
+<position info="not_deleted" x="361" y="0"/>
+</item>
+<item historyLabel="IfDemo2.java" index="9">
+<position info="not_deleted" x="275" y="0"/>
+</item>
+<item historyLabel="IfDemo3.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="IfDemo2.java" index="9">
+<position info="not_deleted" x="61" y="24"/>
+</item>
+<item historyLabel="IfDemo3.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="IfDemo3.java" index="10">
+<position info="not_deleted" x="562" y="0"/>
+</item>
+<item historyLabel="IfDemo3.java" index="10">
+<position info="not_deleted" x="342" y="0"/>
+</item>
+<item historyLabel="IfDemo3.java" index="10">
+<position info="not_deleted" x="400" y="0"/>
+</item>
+<item historyLabel="IfDemo3.java" index="10">
+<position info="not_deleted" x="458" y="0"/>
+</item>
+<item historyLabel="IfDemo3.java" index="10">
+<position info="not_deleted" x="483" y="0"/>
+</item>
+<item historyLabel="IfDemo4.java" index="11">
+<position info="not_deleted" x="55" y="0"/>
+</item>
+<item historyLabel="IfDemo3.java" index="10">
+<position info="not_deleted" x="75" y="0"/>
+</item>
+<item historyLabel="IfDemo4.java" index="11">
+<position/>
+</item>
+<item historyLabel="IfDemo3.java" index="10">
+<position info="not_deleted" x="28" y="0"/>
+</item>
+<item active="true" historyLabel="IfDemo4.java" index="11">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -533,6 +677,33 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfDemo4.java" tooltip="javademo/src/com/nowcoder/part06/IfDemo4.java">
+<persistable path="/javademo/src/com/nowcoder/part06/IfDemo4.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfDemo3.java" tooltip="javademo/src/com/nowcoder/part06/IfDemo3.java">
+<persistable path="/javademo/src/com/nowcoder/part06/IfDemo3.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfDemo2.java" tooltip="javademo/src/com/nowcoder/part06/IfDemo2.java">
+<persistable path="/javademo/src/com/nowcoder/part06/IfDemo2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfDemo1.java" tooltip="javademo/src/com/nowcoder/part06/IfDemo1.java">
+<persistable path="/javademo/src/com/nowcoder/part06/IfDemo1.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShoppingDemo.java" tooltip="anli/src/src/ShoppingDemo.java">
+<persistable path="/anli/src/src/ShoppingDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeapYearDemo.java" tooltip="anli/src/src/LeapYearDemo.java">
+<persistable path="/anli/src/src/LeapYearDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScannerDemo.java" tooltip="javademo/src/com/nowcoder/part05/ScannerDemo.java">
+<persistable path="/javademo/src/com/nowcoder/part05/ScannerDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OperatorDemo.java" tooltip="javademo/src/com/nowcoder/part04/OperatorDemo.java">
+<persistable path="/javademo/src/com/nowcoder/part04/OperatorDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConversionDemo.java" tooltip="javademo/src/com/nowcoder/part03/ConversionDemo.java">
+<persistable path="/javademo/src/com/nowcoder/part03/ConversionDemo.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataTypeDemo.java" tooltip="javademo/src/com/nowcoder/part03/DataTypeDemo.java">
 <persistable path="/javademo/src/com/nowcoder/part03/DataTypeDemo.java"/>
 </file>

@@ -39,12 +39,14 @@ public class DataTypeDemo {
 		double d = 0.3;
 		// float类型的直接量需要以f/F结尾
 		float f = 0.4f;
+		float ff = 3f;
 		// 浮点数不精确
 		System.out.println(3.3f + 0.1f);
 
 		// =======================
 		// 5.char
 		char c1 = 'a';
+		
 		// 二进制前面加0b
 		// char c2=0b01000001;
 		// unicode(后面数字16进制)
@@ -71,6 +73,8 @@ public class DataTypeDemo {
 		//判断的结果是布尔值
 		int age =25;
 		System.out.println(age<18);
+		
+		
 
 	}
 }

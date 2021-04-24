@@ -1,0 +1,21 @@
+package com.nowcoder.part05;
+
+//=====================输入=========================
+//引入
+import java.util.Scanner;
+
+public class ScannerDemo {
+	public static void main(String[] args) {
+
+		// 创建Scanner对象
+		Scanner scan = new Scanner(System.in);
+
+		// 开始输入
+		System.out.println("请输入你的名字");
+		String name = scan.nextLine();
+		
+		
+
+	}
+
+}
